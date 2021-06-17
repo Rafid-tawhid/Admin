@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/healthCondition"
+        android:icon="@drawable/ic_healthcondition"
+        android:title="@string/title_condition" />
+
+    <item
+        android:id="@+id/documents"
+        android:icon="@drawable/ic_healthdocuments"
+        android:title="@string/title_documents" />
+    <item
+        android:id="@+id/prescriptions"
+        android:icon="@drawable/ic_prescriptions"
+        android:title="@string/title_prescriptions" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile" />
+
+</menu>

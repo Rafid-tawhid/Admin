@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_no_connection"
+        android:layout_gravity="center_horizontal"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Connection"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#ff5a73"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:text="Check your connection or try again"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_marginTop="20dp"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/button_text" />
+
+</LinearLayout>

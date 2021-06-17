@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1FBFA9</color>
+    <color name="colorPrimaryDark">#1FBFA9</color>
+    <color name="colorAccent">#1FBFA9</color>
+    <color name="textColor">#1FBFA9</color>
+    <color name="backgroundColor">#E1FFF7</color>
+    <color name="backgroundColorDark">#C9FEEA</color>
+    <color name="black">#000000</color>
+    <color name="grey">#818586</color>
+    <color name="text_hint_color">#CECCCC</color>
+    <color name="deep_white">#EEEEEE</color>
+    <color name="profile_icon_color">#A6ECD2</color>
+</resources>

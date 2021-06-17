@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".SplashActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/ic_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="MEDI"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="TECH"
+                android:textColor="#1FBFA9"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Changing the way you"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="receive healthcare with"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="medical excellence"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progress"
+            android:layout_marginTop="15dp"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            app:indicatorColor="@color/textColor"
+            app:indicatorName="BallSpinFadeLoaderIndicator" />
+    </LinearLayout>
+</RelativeLayout>
